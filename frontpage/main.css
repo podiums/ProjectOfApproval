@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+nav{
+    height: 65px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(235, 236, 241);
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgb(25, 25, 66);
+}
+.logo{
+    color:rgb(241, 241, 245);
+    line-height: 60px;
+    font-size: 40px;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 60px;
+}
+nav ul li a{
+    color:white;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgba(92, 206, 92, 0.877);
+}
+
+.show-content-name{
+    height: 70px;
+    background-color: rgb(19, 19, 44);
+}
+.show-content-name ul li{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.art-piece {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 100%;
+    /* overflow-x: auto; */
+}
+
+.art-piece img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.scroll-container {
+    width: 100%;
+    color: white;
+}
+
+.content{
+    width: 100%; /* Adjust this width based on your content */
+    height: 5vh;
+    background-color: rgb(47, 43, 43);
+
+}
+.content ul{
+    float: right;
+    /* padding-top: 30px; */
+    height: 100%;
+    margin-top: 20px;
+    /* background-color: rgb(49, 6, 6); */
+}
+.content ul li{
+    display: inline;
+    margin-right:150px;
+    width: 30px;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

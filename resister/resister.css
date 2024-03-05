@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(../images/loginBackimg.jpg);
+    background-size: cover;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.signup-container {
+    background-color: rgb(14, 11, 11);
+    color: white;
+    border-radius: 8px;
+    width: 900px;
+    height:700px;
+    display: flex;
+}
+
+.inside-signup-container1{
+    width: 50%;
+    background-image:url(../images/astranout1.jpg); 
+    background-size:cover;  
+    opacity: 0.70; 
+    /* text-decoration: solid;
+    text-transform: capitalize; */
+    /* position: fixed; */
+}
+.text-content{
+  position: fixed;
+  margin:0;
+  left: 27%;
+
+}
+
+ 
+.inside-signup-container2{
+    width:50%;
+    text-align: center;
+    padding-top: 50px;
+}
+.signup-container h1{
+    padding-top: 30px;
+}
+.img{
+  background: cover ;
+}
+
+.signup-contents{
+    padding-top: 50px;
+}
+
+.input-container { 
+  margin-top: 0;
+  margin-left: 140px;
+  width: 200px; 
+}
+
+
+.input-container .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.input-container input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.input-container input[type="email"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+.input-container input[type="password"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
+
+.login-linker{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup-button{
+  --color: #560bad;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color .2s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color);
+}
+ 
+.signup-button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+ 
+button:hover {
+  color: #fff;
+}
+ 
+button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .2s;
+}
+ 
+button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+button:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+}
